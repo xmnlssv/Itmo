@@ -6,7 +6,6 @@ def greet():
     print("Добро пожаловать в решатель СЛАУ методом Гаусса!")
     print("------------------------------------------------")
 
-
 def user_input():
     print("Введите тип ввода данных: ")
     print("1 - ввести матрицу вручную")
@@ -21,7 +20,6 @@ def user_input():
     else:
         print("Пожалуйста, напечатайте 1 или 2 в соответствии с типом ввода.")
         return user_input()
-
 
 def fill_matrix_from_console():
     try:
@@ -45,7 +43,6 @@ def fill_matrix_from_console():
         print("Ввод некорректен, попробуйте снова: ")
         return fill_matrix_from_console()
     return [matrix, f]
-
 
 def get_matrix_from_file(filename):
     try:
